@@ -1,0 +1,71 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header>h1{
+    font-weight: 500;
+    color:green
+
+}
+header{
+  /* flex property do arrangement in horizontely */
+    display:flex;
+    /* justify content wiil create arrangement in one end and other end */
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+li{
+    list-style: none;
+    font-size:  1.5rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* nav dont have width to create space bteween */
+nav{
+    /* positio:relative is use to move element from defoult position */
+    position: relative;
+    top:1rem;
+    width:22rem;
+
+}
+.showcase_img{
+    /* vw is responsive with screen */
+    width: 95vw;
+    margin: 2rem;
+}
+article{
+    display: flex;
+    margin:1.5rem;
+    
+}
+.container{
+    
+   /* text-align is use to allign all the text at centere */
+   text-align: center;
+    margin-right: 2rem;
+    padding: 1rem;
+
+}
+p{
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    /* align-items is use to align the items in center vertically */
+    align-items: center;
+    font-size: 1.5rem;
+}
+a{
+    /* text decoration is use to design text */
+    text-decoration: none;
+}
+a:hover{
+    color:red
+}
